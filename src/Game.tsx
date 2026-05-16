@@ -4,8 +4,10 @@ import { candidateKeys, normalize } from "./match";
 import {
   bitsetFromIndices,
   buildHash,
+  clearProgress,
   indicesFromBitset,
   parseHash,
+  saveProgress,
   setHash,
   stableSortedOrder,
 } from "./state";
@@ -112,11 +114,18 @@ function PlayableGame({ game, slug }: { game: GameDefinition; slug: string }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Persist progress to URL whenever found changes.
+  // Persist progress to URL and localStorage whenever found changes.
   useEffect(() => {
     const bits = bitsetFromIndices(found, sortedOrder);
-    setHash(buildHash(slug, startSec, bits), true);
-  }, [found, slug, startSec, sortedOrder]);
+    const hash = buildHash(slug, startSec, bits);
+    setHash(hash, true);
+    saveProgress(slug, {
+      hash,
+      foundCount: found.size,
+      totalCount: game.items.length,
+      startSec,
+    });
+  }, [found, slug, startSec, sortedOrder, game.items.length]);
 
   // Timer
   const won = found.size === game.items.length;
@@ -209,6 +218,7 @@ function PlayableGame({ game, slug }: { game: GameDefinition; slug: string }) {
 
   const onRestart = useCallback(() => {
     if (!window.confirm("Reset progress and timer?")) return;
+    clearProgress(slug);
     setHash(buildHash(slug), false);
     window.location.reload();
   }, [slug]);

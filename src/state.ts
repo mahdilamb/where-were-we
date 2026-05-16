@@ -106,3 +106,39 @@ export function setHash(hash: string, replace = false): void {
   if (replace) history.replaceState(null, "", hash);
   else window.location.hash = hash;
 }
+
+// ── localStorage progress ────────────────────────────────────────────────────
+
+const STORAGE_KEY = "ww:progress";
+
+export interface SavedProgress {
+  hash: string;
+  foundCount: number;
+  totalCount: number;
+  startSec: number;
+}
+
+export function saveProgress(slug: string, p: SavedProgress): void {
+  try {
+    const all = loadAllProgress();
+    all[slug] = p;
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
+  } catch {}
+}
+
+export function loadAllProgress(): Record<string, SavedProgress> {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? (JSON.parse(raw) as Record<string, SavedProgress>) : {};
+  } catch {
+    return {};
+  }
+}
+
+export function clearProgress(slug: string): void {
+  try {
+    const all = loadAllProgress();
+    delete all[slug];
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
+  } catch {}
+}
