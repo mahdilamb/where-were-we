@@ -15,6 +15,10 @@ games:
     name: Rivers of the UK
     description: The longest and most famous rivers across Britain.
     count: 10
+  - slug: london-boroughs
+    name: London Boroughs
+    description: Name all 33 London boroughs including the City of London.
+    count: 33
   - slug: east-coast-line
     name: East Coast Main Line
     description: Every major calling point from King's Cross to Edinburgh.
