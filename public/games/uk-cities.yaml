@@ -1,0 +1,162 @@
+name: Cities of the UK
+description: Name all 73 cities with formal city status across England, Wales, Scotland and Northern Ireland.
+mapType: light
+geographyType: point
+center: [54.5, -3.0]
+zoom: 6
+items:
+  - name: "Aberdeen"
+    point: [57.1497, -2.0943]
+  - name: "Armagh"
+    point: [54.3503, -6.6528]
+  - name: "Bangor"
+    point: [53.2274, -4.1279]
+  - name: "Bath"
+    point: [51.3811, -2.359]
+  - name: "Belfast"
+    point: [54.5973, -5.9301]
+  - name: "Birmingham"
+    point: [52.4862, -1.8904]
+  - name: "Bradford"
+    point: [53.796, -1.7594]
+  - name: "Brighton"
+    aliases: ["brighton and hove"]
+    point: [50.8225, -0.1372]
+  - name: "Bristol"
+    point: [51.4545, -2.5879]
+  - name: "Cambridge"
+    point: [52.2053, 0.1218]
+  - name: "Canterbury"
+    point: [51.2802, 1.0789]
+  - name: "Cardiff"
+    point: [51.4816, -3.1791]
+  - name: "Carlisle"
+    point: [54.8951, -2.9382]
+  - name: "Chelmsford"
+    point: [51.7356, 0.4685]
+  - name: "Chester"
+    point: [53.1905, -2.8917]
+  - name: "Chichester"
+    point: [50.8365, -0.7792]
+  - name: "Colchester"
+    point: [51.8959, 0.8919]
+  - name: "Coventry"
+    point: [52.4068, -1.5197]
+  - name: "Derby"
+    point: [52.9225, -1.4746]
+  - name: "Derry"
+    aliases: ["londonderry"]
+    point: [54.9966, -7.3086]
+  - name: "Dundee"
+    point: [56.462, -2.9707]
+  - name: "Dunfermline"
+    point: [56.0718, -3.4525]
+  - name: "Durham"
+    point: [54.7761, -1.5733]
+  - name: "Edinburgh"
+    point: [55.9533, -3.1883]
+  - name: "Ely"
+    point: [52.3996, 0.2637]
+  - name: "Exeter"
+    point: [50.7184, -3.5339]
+  - name: "Glasgow"
+    point: [55.8642, -4.2518]
+  - name: "Gloucester"
+    point: [51.8642, -2.238]
+  - name: "Hereford"
+    point: [52.0567, -2.716]
+  - name: "Inverness"
+    point: [57.4778, -4.2247]
+  - name: "Kingston upon Hull"
+    aliases: ["hull"]
+    point: [53.7676, -0.3274]
+  - name: "Lancaster"
+    point: [54.0466, -2.8007]
+  - name: "Leeds"
+    point: [53.8008, -1.5491]
+  - name: "Leicester"
+    point: [52.6369, -1.1398]
+  - name: "Lichfield"
+    point: [52.6836, -1.8274]
+  - name: "Lincoln"
+    point: [53.2307, -0.5406]
+  - name: "Lisburn"
+    point: [54.5162, -6.058]
+  - name: "Liverpool"
+    point: [53.4084, -2.9916]
+  - name: "London"
+    aliases: ["city of london", "city of westminster"]
+    point: [51.5074, -0.1278]
+  - name: "Manchester"
+    point: [53.4808, -2.2426]
+  - name: "Milton Keynes"
+    point: [52.0406, -0.7594]
+  - name: "Newcastle upon Tyne"
+    aliases: ["newcastle"]
+    point: [54.9783, -1.6178]
+  - name: "Newport"
+    point: [51.5843, -2.9977]
+  - name: "Newry"
+    point: [54.1751, -6.3402]
+  - name: "Norwich"
+    point: [52.6309, 1.2974]
+  - name: "Nottingham"
+    point: [52.9548, -1.1581]
+  - name: "Oxford"
+    point: [51.752, -1.2577]
+  - name: "Perth"
+    point: [56.395, -3.431]
+  - name: "Peterborough"
+    point: [52.5695, -0.2405]
+  - name: "Plymouth"
+    point: [50.3755, -4.1427]
+  - name: "Portsmouth"
+    point: [50.8198, -1.088]
+  - name: "Preston"
+    point: [53.7632, -2.7031]
+  - name: "Ripon"
+    point: [54.1378, -1.5243]
+  - name: "Salford"
+    point: [53.4832, -2.2909]
+  - name: "Salisbury"
+    point: [51.0693, -1.7942]
+  - name: "Sheffield"
+    point: [53.3811, -1.4701]
+  - name: "Southampton"
+    point: [50.9097, -1.4044]
+  - name: "Southend-on-Sea"
+    aliases: ["southend"]
+    point: [51.5459, 0.7077]
+  - name: "St Albans"
+    point: [51.7526, -0.336]
+  - name: "St Asaph"
+    aliases: ["llanelwy"]
+    point: [53.2585, -3.4427]
+  - name: "St Davids"
+    aliases: ["tyddewi"]
+    point: [51.8813, -5.2695]
+  - name: "Stirling"
+    point: [56.1165, -3.9369]
+  - name: "Stoke-on-Trent"
+    aliases: ["stoke"]
+    point: [53.0027, -2.1794]
+  - name: "Sunderland"
+    point: [54.9069, -1.3838]
+  - name: "Swansea"
+    point: [51.6214, -3.9436]
+  - name: "Truro"
+    point: [50.2632, -5.051]
+  - name: "Wakefield"
+    point: [53.683, -1.4977]
+  - name: "Wells"
+    point: [51.2093, -2.6481]
+  - name: "Winchester"
+    point: [51.0632, -1.308]
+  - name: "Wolverhampton"
+    point: [52.5862, -2.1286]
+  - name: "Worcester"
+    point: [52.192, -2.22]
+  - name: "Wrexham"
+    point: [53.0461, -2.9927]
+  - name: "York"
+    point: [53.959, -1.0815]

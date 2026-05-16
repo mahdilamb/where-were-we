@@ -19,6 +19,10 @@ games:
     name: London Boroughs
     description: Name all 32 London boroughs.
     count: 32
+  - slug: uk-cities
+    name: Cities of the UK
+    description: Name all 73 cities with formal city status across England, Wales, Scotland and Northern Ireland.
+    count: 73
   - slug: east-coast-line
     name: East Coast Main Line
     description: Every major calling point from King's Cross to Edinburgh.
