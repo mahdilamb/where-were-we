@@ -9,8 +9,8 @@ games:
     count: 18
   - slug: london-green-spaces
     name: London's Green Spaces
-    description: The big parks, commons and heaths inside Greater London.
-    count: 10
+    description: Find all London parks, commons, heaths and nature reserves.
+    count: 307
   - slug: uk-rivers
     name: Rivers of the UK
     description: The longest and most famous rivers across Britain.
