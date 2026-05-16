@@ -1,0 +1,21 @@
+games:
+  - slug: london-tube
+    name: London Underground — All Stations
+    description: Find all 268 London Underground stations across every line.
+    count: 268
+  - slug: thames-bridges
+    name: Bridges of Central London
+    description: Every road and rail bridge across the Thames between Hammersmith and Tower.
+    count: 18
+  - slug: london-green-spaces
+    name: London's Green Spaces
+    description: The big parks, commons and heaths inside Greater London.
+    count: 10
+  - slug: uk-rivers
+    name: Rivers of the UK
+    description: The longest and most famous rivers across Britain.
+    count: 10
+  - slug: east-coast-line
+    name: East Coast Main Line
+    description: Every major calling point from King's Cross to Edinburgh.
+    count: 13

@@ -1,0 +1,38 @@
+name: East Coast Main Line
+description: Every major calling point from King's Cross to Edinburgh Waverley on the LNER flagship route.
+mapType: street
+geographyType: point
+center: [54.0, -1.5]
+zoom: 6
+items:
+  - name: London King's Cross
+    aliases: [kings cross, london kings cross]
+    point: [51.5308, -0.1238]
+  - name: Stevenage
+    point: [51.9035, -0.2070]
+  - name: Peterborough
+    point: [52.5750, -0.2502]
+  - name: Grantham
+    point: [52.9075, -0.6418]
+  - name: Newark North Gate
+    aliases: [newark]
+    point: [53.0814, -0.8090]
+  - name: Doncaster
+    point: [53.5226, -1.1392]
+  - name: York
+    point: [53.9580, -1.0936]
+  - name: Northallerton
+    point: [54.3340, -1.4380]
+  - name: Darlington
+    point: [54.5246, -1.5469]
+  - name: Durham
+    point: [54.7793, -1.5817]
+  - name: Newcastle
+    aliases: [newcastle upon tyne, newcastle central]
+    point: [54.9686, -1.6175]
+  - name: Berwick-upon-Tweed
+    aliases: [berwick]
+    point: [55.7747, -2.0089]
+  - name: Edinburgh Waverley
+    aliases: [edinburgh]
+    point: [55.9521, -3.1898]

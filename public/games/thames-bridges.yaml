@@ -1,0 +1,46 @@
+name: Bridges of Central London
+description: Every road and rail bridge across the Thames between Hammersmith and Tower.
+mapType: street
+geographyType: point
+center: [51.5000, -0.1050]
+zoom: 13
+items:
+  - name: Hammersmith Bridge
+    point: [51.4882, -0.2306]
+  - name: Putney Bridge
+    point: [51.4684, -0.2098]
+  - name: Wandsworth Bridge
+    point: [51.4710, -0.1885]
+  - name: Battersea Railway Bridge
+    aliases: [cremorne bridge]
+    point: [51.4763, -0.1814]
+  - name: Battersea Bridge
+    point: [51.4794, -0.1697]
+  - name: Albert Bridge
+    point: [51.4839, -0.1666]
+  - name: Chelsea Bridge
+    point: [51.4845, -0.1486]
+  - name: Grosvenor Bridge
+    aliases: [victoria railway bridge]
+    point: [51.4870, -0.1457]
+  - name: Vauxhall Bridge
+    point: [51.4870, -0.1267]
+  - name: Lambeth Bridge
+    point: [51.4938, -0.1226]
+  - name: Westminster Bridge
+    point: [51.5008, -0.1218]
+  - name: Hungerford Bridge
+    aliases: [golden jubilee bridge, golden jubilee bridges]
+    point: [51.5063, -0.1216]
+  - name: Waterloo Bridge
+    point: [51.5085, -0.1158]
+  - name: Blackfriars Bridge
+    point: [51.5104, -0.1052]
+  - name: Millennium Bridge
+    point: [51.5102, -0.0986]
+  - name: Southwark Bridge
+    point: [51.5092, -0.0937]
+  - name: London Bridge
+    point: [51.5078, -0.0877]
+  - name: Tower Bridge
+    point: [51.5055, -0.0754]

@@ -1,0 +1,1358 @@
+name: London Underground — All Stations
+description: Find all 268 London Underground stations across every line.
+mapType: light
+geographyType: point
+center: [51.52, -0.11]
+zoom: 10
+
+lineDefinitions:
+  bakerloo:       { name: Bakerloo,           color: "#B36305" }
+  central:        { name: Central,            color: "#E32017" }
+  circle:         { name: Circle,             color: "#FFD300" }
+  district:       { name: District,           color: "#007229" }
+  hammersmith-city: { name: Hammersmith & City, color: "#F4A9BE" }
+  jubilee:        { name: Jubilee,            color: "#A0A5A9" }
+  metropolitan:   { name: Metropolitan,       color: "#9B0056" }
+  northern:       { name: Northern,           color: "#000000" }
+  piccadilly:     { name: Piccadilly,         color: "#003688" }
+  victoria:       { name: Victoria,           color: "#0098D4" }
+  waterloo-city:  { name: Waterloo & City,    color: "#95CDBA" }
+
+routes:
+  - line: bakerloo
+    path:
+      - [51.592268, -0.335217]
+      - [51.581756, -0.31691]
+      - [51.570232, -0.308433]
+      - [51.562551, -0.304]
+      - [51.552304, -0.296852]
+      - [51.543959, -0.275892]
+      - [51.53631, -0.257883]
+      - [51.532259, -0.244283]
+      - [51.530539, -0.225016]
+      - [51.534158, -0.204574]
+      - [51.534979, -0.194232]
+      - [51.529777, -0.185758]
+      - [51.523263, -0.183783]
+      - [51.516581, -0.175689]
+      - [51.520299, -0.17015]
+      - [51.522322, -0.163207]
+      - [51.522883, -0.15713]
+      - [51.523344, -0.146444]
+      - [51.515224, -0.141903]
+      - [51.51005, -0.133798]
+      - [51.50741, -0.127277]
+      - [51.507058, -0.122666]
+      - [51.503299, -0.11478]
+      - [51.498808, -0.112315]
+      - [51.494536, -0.100606]
+  - line: central
+    path:
+      - [51.69368, 0.113767]
+      - [51.671759, 0.103085]
+      - [51.645386, 0.083782]
+      - [51.641443, 0.055476]
+      - [51.626605, 0.046757]
+      - [51.606899, 0.03397]
+  - line: central
+    path:
+      - [51.606899, 0.03397]
+      - [51.591907, 0.027338]
+      - [51.580678, 0.02144]
+      - [51.568324, 0.008194]
+  - line: central
+    path:
+      - [51.568324, 0.008194]
+      - [51.556589, -0.005523]
+      - [51.541806, -0.003458]
+      - [51.525122, -0.03364]
+      - [51.527222, -0.055506]
+      - [51.517372, -0.083182]
+      - [51.513356, -0.088899]
+      - [51.514936, -0.097567]
+      - [51.518247, -0.111583]
+      - [51.51758, -0.120475]
+      - [51.516426, -0.13041]
+      - [51.515224, -0.141903]
+      - [51.514304, -0.149723]
+      - [51.513424, -0.158953]
+      - [51.511723, -0.175494]
+      - [51.510312, -0.187152]
+      - [51.509128, -0.196104]
+      - [51.507143, -0.205679]
+      - [51.504376, -0.218813]
+      - [51.511959, -0.224297]
+      - [51.516612, -0.247248]
+      - [51.523524, -0.259755]
+  - line: central
+    path:
+      - [51.523524, -0.259755]
+      - [51.530177, -0.292704]
+      - [51.536717, -0.323446]
+      - [51.542424, -0.34605]
+      - [51.548236, -0.368699]
+      - [51.556853, -0.398915]
+      - [51.560736, -0.41071]
+      - [51.569688, -0.437886]
+  - line: central
+    path:
+      - [51.603659, 0.093482]
+      - [51.595618, 0.091004]
+      - [51.585689, 0.088585]
+      - [51.575726, 0.090004]
+      - [51.576544, 0.066185]
+      - [51.576243, 0.04536]
+      - [51.575501, 0.028527]
+      - [51.568324, 0.008194]
+  - line: central
+    path:
+      - [51.603659, 0.093482]
+      - [51.613378, 0.092066]
+      - [51.617916, 0.075041]
+      - [51.617199, 0.043647]
+      - [51.606899, 0.03397]
+  - line: central
+    path:
+      - [51.523524, -0.259755]
+      - [51.518001, -0.28098]
+      - [51.515017, -0.301457]
+  - line: circle
+    path:
+      - [51.519858, -0.167832]
+      - [51.516581, -0.175689]
+      - [51.512284, -0.187938]
+      - [51.509128, -0.196104]
+      - [51.501055, -0.192792]
+      - [51.494316, -0.182658]
+      - [51.494094, -0.174138]
+      - [51.49227, -0.156377]
+      - [51.496359, -0.143102]
+      - [51.499544, -0.133608]
+      - [51.50132, -0.124861]
+      - [51.507058, -0.122666]
+      - [51.511006, -0.11426]
+      - [51.511581, -0.103659]
+      - [51.512117, -0.094009]
+      - [51.51151, -0.090432]
+      - [51.5107, -0.085969]
+      - [51.509971, -0.076546]
+      - [51.514246, -0.075689]
+      - [51.517372, -0.083182]
+      - [51.518176, -0.088322]
+      - [51.520275, -0.097993]
+      - [51.520252, -0.104913]
+      - [51.530663, -0.123194]
+      - [51.525604, -0.135829]
+      - [51.52384, -0.144262]
+      - [51.522883, -0.15713]
+      - [51.519858, -0.167832]
+  - line: circle
+    path:
+      - [51.519858, -0.167832]
+      - [51.518187, -0.178306]
+      - [51.519113, -0.188748]
+      - [51.52111, -0.201065]
+      - [51.517449, -0.210391]
+      - [51.513389, -0.217799]
+      - [51.509669, -0.22453]
+      - [51.505579, -0.226375]
+      - [51.502005, -0.226715]
+      - [51.49339, -0.22503]
+  - line: district
+    path:
+      - [51.559063, 0.250882]
+      - [51.55856, 0.235809]
+      - [51.554093, 0.219116]
+      - [51.549775, 0.19864]
+      - [51.544096, 0.166017]
+      - [51.541639, 0.147527]
+      - [51.540331, 0.127016]
+      - [51.538372, 0.10153]
+      - [51.539321, 0.081053]
+      - [51.538948, 0.051186]
+      - [51.53534, 0.035263]
+      - [51.531341, 0.017451]
+      - [51.528136, 0.005055]
+      - [51.524839, -0.011538]
+      - [51.52694, -0.025128]
+      - [51.525122, -0.03364]
+      - [51.521858, -0.046596]
+      - [51.519518, -0.059971]
+      - [51.515037, -0.072384]
+      - [51.509971, -0.076546]
+      - [51.5107, -0.085969]
+      - [51.51151, -0.090432]
+      - [51.512117, -0.094009]
+      - [51.511581, -0.103659]
+      - [51.511006, -0.11426]
+      - [51.507058, -0.122666]
+      - [51.50132, -0.124861]
+      - [51.499544, -0.133608]
+      - [51.496359, -0.143102]
+      - [51.49227, -0.156377]
+      - [51.494094, -0.174138]
+      - [51.494316, -0.182658]
+      - [51.492063, -0.193378]
+  - line: district
+    path:
+      - [51.492063, -0.193378]
+      - [51.490459, -0.206636]
+      - [51.490311, -0.213427]
+      - [51.4923, -0.22362]
+      - [51.494122, -0.235881]
+      - [51.494917, -0.245704]
+      - [51.495148, -0.254555]
+  - line: district
+    path:
+      - [51.495148, -0.254555]
+      - [51.494627, -0.267972]
+      - [51.503057, -0.280462]
+      - [51.51014, -0.288265]
+      - [51.515017, -0.301457]
+  - line: district
+    path:
+      - [51.495148, -0.254555]
+      - [51.491803, -0.275267]
+      - [51.477058, -0.285241]
+      - [51.463237, -0.301336]
+  - line: district
+    path:
+      - [51.492063, -0.193378]
+      - [51.487268, -0.195599]
+      - [51.480081, -0.195422]
+      - [51.475277, -0.20117]
+      - [51.468262, -0.208731]
+      - [51.459205, -0.211]
+      - [51.445073, -0.206602]
+      - [51.434573, -0.199719]
+      - [51.421207, -0.206573]
+  - line: district
+    path:
+      - [51.519858, -0.167832]
+      - [51.516581, -0.175689]
+      - [51.512284, -0.187938]
+      - [51.509128, -0.196104]
+      - [51.501055, -0.192792]
+      - [51.492063, -0.193378]
+  - line: district
+    path:
+      - [51.492063, -0.193378]
+      - [51.497624, -0.210015]
+  - line: hammersmith-city
+    path:
+      - [51.539321, 0.081053]
+      - [51.538948, 0.051186]
+      - [51.53534, 0.035263]
+      - [51.531341, 0.017451]
+      - [51.528136, 0.005055]
+      - [51.524839, -0.011538]
+      - [51.52694, -0.025128]
+      - [51.525122, -0.03364]
+      - [51.521858, -0.046596]
+      - [51.519518, -0.059971]
+      - [51.515037, -0.072384]
+      - [51.517372, -0.083182]
+      - [51.518176, -0.088322]
+      - [51.520275, -0.097993]
+      - [51.520252, -0.104913]
+      - [51.530663, -0.123194]
+      - [51.525604, -0.135829]
+      - [51.52384, -0.144262]
+      - [51.522883, -0.15713]
+      - [51.519858, -0.167832]
+      - [51.518187, -0.178306]
+      - [51.519113, -0.188748]
+      - [51.52111, -0.201065]
+      - [51.517449, -0.210391]
+      - [51.513389, -0.217799]
+      - [51.509669, -0.22453]
+      - [51.505579, -0.226375]
+      - [51.502005, -0.226715]
+      - [51.49339, -0.22503]
+  - line: jubilee
+    path:
+      - [51.541806, -0.003458]
+      - [51.528136, 0.005055]
+      - [51.513584, 0.008322]
+      - [51.50047, 0.004287]
+      - [51.503488, -0.018246]
+      - [51.497931, -0.049405]
+      - [51.49775, -0.063993]
+      - [51.505721, -0.088873]
+      - [51.50427, -0.105331]
+      - [51.503299, -0.11478]
+      - [51.50132, -0.124861]
+      - [51.506947, -0.142787]
+      - [51.514304, -0.149723]
+      - [51.522883, -0.15713]
+      - [51.534521, -0.173948]
+      - [51.543681, -0.174894]
+      - [51.546825, -0.179845]
+      - [51.546638, -0.191059]
+      - [51.547183, -0.204248]
+      - [51.549146, -0.221537]
+      - [51.551955, -0.239068]
+      - [51.553986, -0.249837]
+      - [51.563198, -0.279262]
+      - [51.584845, -0.27879]
+      - [51.594188, -0.286219]
+      - [51.607701, -0.294693]
+      - [51.619839, -0.303266]
+  - line: metropolitan
+    path:
+      - [51.514246, -0.075689]
+      - [51.517372, -0.083182]
+      - [51.518176, -0.088322]
+      - [51.520275, -0.097993]
+      - [51.520252, -0.104913]
+      - [51.530663, -0.123194]
+      - [51.525604, -0.135829]
+      - [51.52384, -0.144262]
+      - [51.522883, -0.15713]
+      - [51.546825, -0.179845]
+      - [51.563198, -0.279262]
+      - [51.571972, -0.295107]
+      - [51.578481, -0.318056]
+      - [51.579195, -0.337225]
+  - line: metropolitan
+    path:
+      - [51.579195, -0.337225]
+      - [51.584872, -0.362408]
+      - [51.592901, -0.381161]
+      - [51.600572, -0.409464]
+      - [51.611053, -0.423829]
+      - [51.629845, -0.432454]
+  - line: metropolitan
+    path:
+      - [51.629845, -0.432454]
+      - [51.640207, -0.473703]
+      - [51.654358, -0.518461]
+      - [51.667985, -0.560689]
+  - line: metropolitan
+    path:
+      - [51.667985, -0.560689]
+      - [51.705208, -0.611247]
+  - line: metropolitan
+    path:
+      - [51.667985, -0.560689]
+      - [51.674126, -0.607714]
+  - line: metropolitan
+    path:
+      - [51.579195, -0.337225]
+      - [51.57971, -0.3534]
+      - [51.575147, -0.371127]
+      - [51.576506, -0.397373]
+      - [51.573202, -0.412973]
+      - [51.571354, -0.421898]
+      - [51.56177, -0.442225]
+      - [51.553715, -0.449828]
+      - [51.546565, -0.477949]
+  - line: metropolitan
+    path:
+      - [51.629845, -0.432454]
+      - [51.647044, -0.441718]
+      - [51.657446, -0.417377]
+  - line: northern
+    path:
+      - [51.650541, -0.194298]
+      - [51.630597, -0.17921]
+      - [51.618014, -0.18542]
+      - [51.609426, -0.188362]
+      - [51.600921, -0.192527]
+  - line: northern
+    path:
+      - [51.600921, -0.192527]
+      - [51.587131, -0.165012]
+      - [51.577532, -0.145857]
+      - [51.565478, -0.134819]
+      - [51.556822, -0.138433]
+      - [51.550312, -0.140733]
+      - [51.539292, -0.14274]
+  - line: northern
+    path:
+      - [51.539292, -0.14274]
+      - [51.534679, -0.138789]
+      - [51.528344, -0.1323]
+  - line: northern
+    path:
+      - [51.528344, -0.1323]
+      - [51.524951, -0.138321]
+      - [51.520599, -0.134361]
+      - [51.516426, -0.13041]
+      - [51.511386, -0.128426]
+      - [51.50741, -0.127277]
+      - [51.507058, -0.122666]
+      - [51.503299, -0.11478]
+      - [51.488337, -0.105963]
+  - line: northern
+    path:
+      - [51.488337, -0.105963]
+      - [51.48185, -0.112439]
+      - [51.472184, -0.122644]
+      - [51.465135, -0.130016]
+      - [51.461742, -0.138317]
+      - [51.452654, -0.147582]
+      - [51.443288, -0.152997]
+      - [51.435678, -0.159736]
+      - [51.42763, -0.168374]
+      - [51.41816, -0.178086]
+      - [51.415309, -0.192005]
+      - [51.402142, -0.194839]
+  - line: northern
+    path:
+      - [51.539292, -0.14274]
+      - [51.528344, -0.1323]
+  - line: northern
+    path:
+      - [51.528344, -0.1323]
+      - [51.530663, -0.123194]
+      - [51.532624, -0.105898]
+      - [51.525864, -0.08777]
+      - [51.518176, -0.088322]
+      - [51.513356, -0.088899]
+      - [51.505721, -0.088873]
+      - [51.501199, -0.09337]
+      - [51.494536, -0.100606]
+      - [51.488337, -0.105963]
+  - line: northern
+    path:
+      - [51.613653, -0.274928]
+      - [51.602774, -0.264048]
+      - [51.595424, -0.249919]
+      - [51.583301, -0.226424]
+      - [51.57665, -0.213622]
+      - [51.572259, -0.194039]
+      - [51.556239, -0.177464]
+      - [51.550311, -0.164648]
+      - [51.544118, -0.153388]
+      - [51.539292, -0.14274]
+  - line: northern
+    path:
+      - [51.608229, -0.209986]
+      - [51.600921, -0.192527]
+  - line: northern
+    path:
+      - [51.488337, -0.105963]
+      - [51.479912, -0.128476]
+      - [51.479932, -0.142142]
+  - line: piccadilly
+    path:
+      - [51.65152, -0.149171]
+      - [51.647726, -0.132182]
+      - [51.632315, -0.127816]
+      - [51.616446, -0.133062]
+      - [51.607034, -0.124235]
+      - [51.597479, -0.109886]
+      - [51.590272, -0.102953]
+      - [51.570738, -0.096118]
+      - [51.564158, -0.106825]
+      - [51.558655, -0.107457]
+      - [51.552697, -0.113244]
+      - [51.548519, -0.118493]
+      - [51.530663, -0.123194]
+      - [51.523073, -0.124285]
+      - [51.51758, -0.120475]
+      - [51.513093, -0.124436]
+      - [51.511386, -0.128426]
+      - [51.51005, -0.133798]
+      - [51.506947, -0.142787]
+      - [51.503035, -0.152441]
+      - [51.501669, -0.160508]
+      - [51.494094, -0.174138]
+      - [51.494316, -0.182658]
+      - [51.492063, -0.193378]
+      - [51.490311, -0.213427]
+      - [51.4923, -0.22362]
+      - [51.495148, -0.254555]
+      - [51.503057, -0.280462]
+  - line: piccadilly
+    path:
+      - [51.503057, -0.280462]
+      - [51.51014, -0.288265]
+      - [51.517505, -0.288868]
+      - [51.527123, -0.284341]
+      - [51.540627, -0.29961]
+      - [51.550815, -0.315745]
+      - [51.556946, -0.336435]
+      - [51.564888, -0.352492]
+      - [51.575147, -0.371127]
+      - [51.576506, -0.397373]
+      - [51.573202, -0.412973]
+      - [51.571354, -0.421898]
+      - [51.56177, -0.442225]
+      - [51.553715, -0.449828]
+      - [51.546565, -0.477949]
+  - line: piccadilly
+    path:
+      - [51.503057, -0.280462]
+      - [51.501003, -0.307424]
+      - [51.499319, -0.314719]
+      - [51.495635, -0.324939]
+      - [51.481274, -0.352224]
+      - [51.473213, -0.356474]
+      - [51.471295, -0.366578]
+      - [51.473469, -0.386544]
+      - [51.466747, -0.423191]
+  - line: piccadilly
+    path:
+      - [51.466747, -0.423191]
+      - [51.471235, -0.452265]
+      - [51.470052, -0.49056]
+  - line: piccadilly
+    path:
+      - [51.466747, -0.423191]
+      - [51.458524, -0.445771]
+  - line: victoria
+    path:
+      - [51.582965, -0.019885]
+      - [51.586919, -0.04115]
+      - [51.588108, -0.060241]
+      - [51.58333, -0.072584]
+      - [51.564158, -0.106825]
+      - [51.54635, -0.103324]
+      - [51.530663, -0.123194]
+      - [51.528344, -0.1323]
+      - [51.524951, -0.138321]
+      - [51.515224, -0.141903]
+      - [51.506947, -0.142787]
+      - [51.496359, -0.143102]
+      - [51.489097, -0.133761]
+      - [51.485743, -0.124204]
+      - [51.472184, -0.122644]
+      - [51.462618, -0.114888]
+  - line: waterloo-city
+    path:
+      - [51.513356, -0.088899]
+      - [51.503299, -0.11478]
+
+items:
+  - name: Acton Town
+    lines: [district, piccadilly]
+    point: [51.5031, -0.2805]
+  - name: Aldgate
+    lines: [circle, metropolitan]
+    point: [51.5142, -0.0757]
+  - name: Aldgate East
+    lines: [district, hammersmith-city]
+    point: [51.515, -0.0724]
+  - name: Alperton
+    lines: [piccadilly]
+    point: [51.5406, -0.2996]
+  - name: Amersham
+    lines: [metropolitan]
+    point: [51.6741, -0.6077]
+  - name: Angel
+    lines: [northern]
+    point: [51.5326, -0.1059]
+  - name: Archway
+    lines: [northern]
+    point: [51.5655, -0.1348]
+  - name: Arnos Grove
+    lines: [piccadilly]
+    point: [51.6164, -0.1331]
+  - name: Arsenal
+    lines: [piccadilly]
+    point: [51.5587, -0.1075]
+  - name: Baker Street
+    lines: [bakerloo, circle, hammersmith-city, jubilee, metropolitan]
+    point: [51.5229, -0.1571]
+  - name: Balham
+    lines: [northern]
+    point: [51.4433, -0.153]
+  - name: Bank
+    aliases: [bank monument]
+    lines: [central, northern, waterloo-city]
+    point: [51.5134, -0.0889]
+  - name: Barbican
+    lines: [circle, hammersmith-city, metropolitan]
+    point: [51.5203, -0.098]
+  - name: Barking
+    lines: [district, hammersmith-city]
+    point: [51.5393, 0.0811]
+  - name: Barkingside
+    lines: [central]
+    point: [51.5857, 0.0886]
+  - name: Barons Court
+    lines: [district, piccadilly]
+    point: [51.4903, -0.2134]
+  - name: Battersea Power Station
+    lines: [northern]
+    point: [51.4799, -0.1421]
+  - name: Bayswater
+    lines: [circle, district]
+    point: [51.5123, -0.1879]
+  - name: Becontree
+    lines: [district]
+    point: [51.5403, 0.127]
+  - name: Belsize Park
+    lines: [northern]
+    point: [51.5503, -0.1646]
+  - name: Bermondsey
+    lines: [jubilee]
+    point: [51.4978, -0.064]
+  - name: Bethnal Green
+    lines: [central]
+    point: [51.5272, -0.0555]
+  - name: Blackfriars
+    lines: [circle, district]
+    point: [51.5116, -0.1037]
+  - name: Blackhorse Road
+    lines: [victoria]
+    point: [51.5869, -0.0411]
+  - name: Bond Street
+    lines: [central, jubilee]
+    point: [51.5143, -0.1497]
+  - name: Borough
+    lines: [northern]
+    point: [51.5012, -0.0934]
+  - name: Boston Manor
+    lines: [piccadilly]
+    point: [51.4956, -0.3249]
+  - name: Bounds Green
+    lines: [piccadilly]
+    point: [51.607, -0.1242]
+  - name: Bow Road
+    lines: [district, hammersmith-city]
+    point: [51.5269, -0.0251]
+  - name: Brent Cross
+    lines: [northern]
+    point: [51.5767, -0.2136]
+  - name: Brixton
+    lines: [victoria]
+    point: [51.4626, -0.1149]
+  - name: Bromley-by-Bow
+    lines: [district, hammersmith-city]
+    point: [51.5248, -0.0115]
+  - name: Buckhurst Hill
+    lines: [central]
+    point: [51.6266, 0.0468]
+  - name: Burnt Oak
+    lines: [northern]
+    point: [51.6028, -0.264]
+  - name: Caledonian Road
+    lines: [piccadilly]
+    point: [51.5485, -0.1185]
+  - name: Camden Town
+    lines: [northern]
+    point: [51.5393, -0.1427]
+  - name: Canada Water
+    lines: [jubilee]
+    point: [51.4979, -0.0494]
+  - name: Canary Wharf
+    lines: [jubilee]
+    point: [51.5035, -0.0182]
+  - name: Canning Town
+    lines: [jubilee]
+    point: [51.5136, 0.0083]
+  - name: Cannon Street
+    lines: [circle, district]
+    point: [51.5115, -0.0904]
+  - name: Canons Park
+    lines: [jubilee]
+    point: [51.6077, -0.2947]
+  - name: Chalfont & Latimer
+    aliases: [chalfont, chalfont and latimer]
+    lines: [metropolitan]
+    point: [51.668, -0.5607]
+  - name: Chalk Farm
+    lines: [northern]
+    point: [51.5441, -0.1534]
+  - name: Chancery Lane
+    lines: [central]
+    point: [51.5182, -0.1116]
+  - name: Charing Cross
+    lines: [bakerloo, northern]
+    point: [51.5074, -0.1273]
+  - name: Chesham
+    lines: [metropolitan]
+    point: [51.7052, -0.6112]
+  - name: Chigwell
+    lines: [central]
+    point: [51.6179, 0.075]
+  - name: Chiswick Park
+    lines: [district]
+    point: [51.4946, -0.268]
+  - name: Chorleywood
+    lines: [metropolitan]
+    point: [51.6544, -0.5185]
+  - name: Clapham Common
+    lines: [northern]
+    point: [51.4617, -0.1383]
+  - name: Clapham North
+    lines: [northern]
+    point: [51.4651, -0.13]
+  - name: Clapham South
+    lines: [northern]
+    point: [51.4527, -0.1476]
+  - name: Cockfosters
+    lines: [piccadilly]
+    point: [51.6515, -0.1492]
+  - name: Colindale
+    lines: [northern]
+    point: [51.5954, -0.2499]
+  - name: Colliers Wood
+    lines: [northern]
+    point: [51.4182, -0.1781]
+  - name: Covent Garden
+    lines: [piccadilly]
+    point: [51.5131, -0.1244]
+  - name: Dagenham East
+    lines: [district]
+    point: [51.5441, 0.166]
+  - name: Dagenham Heathway
+    lines: [district]
+    point: [51.5416, 0.1475]
+  - name: Debden
+    lines: [central]
+    point: [51.6454, 0.0838]
+  - name: Dollis Hill
+    lines: [jubilee]
+    point: [51.552, -0.2391]
+  - name: Ealing Broadway
+    lines: [central, district]
+    point: [51.515, -0.3015]
+  - name: Ealing Common
+    lines: [district, piccadilly]
+    point: [51.5101, -0.2883]
+  - name: Earl's Court
+    aliases: [earls court]
+    lines: [district, piccadilly]
+    point: [51.4921, -0.1934]
+  - name: East Acton
+    lines: [central]
+    point: [51.5166, -0.2472]
+  - name: East Finchley
+    lines: [northern]
+    point: [51.5871, -0.165]
+  - name: East Ham
+    lines: [district, hammersmith-city]
+    point: [51.5389, 0.0512]
+  - name: East Putney
+    lines: [district]
+    point: [51.4592, -0.211]
+  - name: Eastcote
+    lines: [metropolitan, piccadilly]
+    point: [51.5765, -0.3974]
+  - name: Edgware
+    lines: [northern]
+    point: [51.6137, -0.2749]
+  - name: Edgware Road
+    aliases: [edgware road bakerloo, edgware road circle]
+    lines: [bakerloo, circle, district, hammersmith-city]
+    point: [51.5199, -0.1678]
+  - name: Elephant & Castle
+    aliases: [elephant and castle]
+    lines: [bakerloo, northern]
+    point: [51.4945, -0.1006]
+  - name: Elm Park
+    lines: [district]
+    point: [51.5498, 0.1986]
+  - name: Embankment
+    lines: [bakerloo, circle, district, northern]
+    point: [51.5071, -0.1227]
+  - name: Epping
+    lines: [central]
+    point: [51.6937, 0.1138]
+  - name: Euston
+    lines: [northern, victoria]
+    point: [51.5283, -0.1323]
+  - name: Euston Square
+    lines: [circle, hammersmith-city, metropolitan]
+    point: [51.5256, -0.1358]
+  - name: Fairlop
+    lines: [central]
+    point: [51.5956, 0.091]
+  - name: Farringdon
+    lines: [circle, hammersmith-city, metropolitan]
+    point: [51.5203, -0.1049]
+  - name: Finchley Central
+    lines: [northern]
+    point: [51.6009, -0.1925]
+  - name: Finchley Road
+    lines: [jubilee, metropolitan]
+    point: [51.5468, -0.1798]
+  - name: Finsbury Park
+    lines: [piccadilly, victoria]
+    point: [51.5642, -0.1068]
+  - name: Fulham Broadway
+    lines: [district]
+    point: [51.4801, -0.1954]
+  - name: Gants Hill
+    lines: [central]
+    point: [51.5765, 0.0662]
+  - name: Gloucester Road
+    lines: [circle, district, piccadilly]
+    point: [51.4943, -0.1827]
+  - name: Golders Green
+    lines: [northern]
+    point: [51.5723, -0.194]
+  - name: Goldhawk Road
+    lines: [circle, hammersmith-city]
+    point: [51.502, -0.2267]
+  - name: Goodge Street
+    lines: [northern]
+    point: [51.5206, -0.1344]
+  - name: Grange Hill
+    lines: [central]
+    point: [51.6134, 0.0921]
+  - name: Great Portland Street
+    lines: [circle, hammersmith-city, metropolitan]
+    point: [51.5238, -0.1443]
+  - name: Green Park
+    lines: [jubilee, piccadilly, victoria]
+    point: [51.5069, -0.1428]
+  - name: Greenford
+    lines: [central]
+    point: [51.5424, -0.3461]
+  - name: Gunnersbury
+    lines: [district]
+    point: [51.4918, -0.2753]
+  - name: Hainault
+    lines: [central]
+    point: [51.6037, 0.0935]
+  - name: Hammersmith
+    aliases: [hammersmith district, hammersmith piccadilly, hammersmith circle]
+    lines: [circle, district, hammersmith-city, piccadilly]
+    point: [51.4929, -0.2243]
+  - name: Hampstead
+    lines: [northern]
+    point: [51.5562, -0.1775]
+  - name: Hanger Lane
+    lines: [central]
+    point: [51.5302, -0.2927]
+  - name: Harlesden
+    lines: [bakerloo]
+    point: [51.5363, -0.2579]
+  - name: Harrow & Wealdstone
+    aliases: [harrow and wealdstone, harrow wealdstone]
+    lines: [bakerloo]
+    point: [51.5923, -0.3352]
+  - name: Harrow-on-the-Hill
+    aliases: [harrow on the hill, harrow]
+    lines: [metropolitan]
+    point: [51.5792, -0.3372]
+  - name: Hatton Cross
+    lines: [piccadilly]
+    point: [51.4667, -0.4232]
+  - name: Heathrow Terminal 4
+    aliases: [heathrow t4]
+    lines: [piccadilly]
+    point: [51.4585, -0.4458]
+  - name: Heathrow Terminal 5
+    aliases: [heathrow t5]
+    lines: [piccadilly]
+    point: [51.4701, -0.4906]
+  - name: Heathrow Terminals 2 & 3
+    aliases: [heathrow terminals 2 and 3, heathrow t2, heathrow t3, heathrow terminals 2 3]
+    lines: [piccadilly]
+    point: [51.4712, -0.4523]
+  - name: Hendon Central
+    lines: [northern]
+    point: [51.5833, -0.2264]
+  - name: High Barnet
+    lines: [northern]
+    point: [51.6505, -0.1943]
+  - name: High Street Kensington
+    aliases: [high st kensington, high street ken]
+    lines: [circle, district]
+    point: [51.5011, -0.1928]
+  - name: Highbury & Islington
+    aliases: [highbury and islington, highbury islington]
+    lines: [victoria]
+    point: [51.5463, -0.1033]
+  - name: Highgate
+    lines: [northern]
+    point: [51.5775, -0.1459]
+  - name: Hillingdon
+    lines: [metropolitan, piccadilly]
+    point: [51.5537, -0.4498]
+  - name: Holborn
+    lines: [central, piccadilly]
+    point: [51.5176, -0.1205]
+  - name: Holland Park
+    lines: [central]
+    point: [51.5071, -0.2057]
+  - name: Holloway Road
+    lines: [piccadilly]
+    point: [51.5527, -0.1132]
+  - name: Hornchurch
+    lines: [district]
+    point: [51.5541, 0.2191]
+  - name: Hounslow Central
+    lines: [piccadilly]
+    point: [51.4713, -0.3666]
+  - name: Hounslow East
+    lines: [piccadilly]
+    point: [51.4732, -0.3565]
+  - name: Hounslow West
+    lines: [piccadilly]
+    point: [51.4735, -0.3865]
+  - name: Hyde Park Corner
+    lines: [piccadilly]
+    point: [51.503, -0.1524]
+  - name: Ickenham
+    lines: [metropolitan, piccadilly]
+    point: [51.5618, -0.4422]
+  - name: Kennington
+    lines: [northern]
+    point: [51.4883, -0.106]
+  - name: Kensal Green
+    lines: [bakerloo]
+    point: [51.5305, -0.225]
+  - name: Kensington (Olympia)
+    aliases: [kensington olympia, olympia]
+    lines: [district]
+    point: [51.4976, -0.21]
+  - name: Kentish Town
+    lines: [northern]
+    point: [51.5503, -0.1407]
+  - name: Kenton
+    lines: [bakerloo]
+    point: [51.5818, -0.3169]
+  - name: Kew Gardens
+    lines: [district]
+    point: [51.4771, -0.2852]
+  - name: Kilburn
+    lines: [jubilee]
+    point: [51.5472, -0.2042]
+  - name: Kilburn Park
+    lines: [bakerloo]
+    point: [51.535, -0.1942]
+  - name: King's Cross St. Pancras
+    aliases: [kings cross, kings cross st pancras, st pancras]
+    lines: [circle, hammersmith-city, metropolitan, northern, piccadilly, victoria]
+    point: [51.5307, -0.1232]
+  - name: Kingsbury
+    lines: [jubilee]
+    point: [51.5848, -0.2788]
+  - name: Knightsbridge
+    lines: [piccadilly]
+    point: [51.5017, -0.1605]
+  - name: Ladbroke Grove
+    lines: [circle, hammersmith-city]
+    point: [51.5174, -0.2104]
+  - name: Lambeth North
+    lines: [bakerloo]
+    point: [51.4988, -0.1123]
+  - name: Lancaster Gate
+    lines: [central]
+    point: [51.5117, -0.1755]
+  - name: Latimer Road
+    lines: [circle, hammersmith-city]
+    point: [51.5134, -0.2178]
+  - name: Leicester Square
+    lines: [northern, piccadilly]
+    point: [51.5114, -0.1284]
+  - name: Leyton
+    lines: [central]
+    point: [51.5566, -0.0055]
+  - name: Leytonstone
+    lines: [central]
+    point: [51.5683, 0.0082]
+  - name: Liverpool Street
+    lines: [central, circle, hammersmith-city, metropolitan]
+    point: [51.5174, -0.0832]
+  - name: London Bridge
+    lines: [jubilee, northern]
+    point: [51.5057, -0.0889]
+  - name: Loughton
+    lines: [central]
+    point: [51.6414, 0.0555]
+  - name: Maida Vale
+    lines: [bakerloo]
+    point: [51.5298, -0.1858]
+  - name: Manor House
+    lines: [piccadilly]
+    point: [51.5707, -0.0961]
+  - name: Mansion House
+    lines: [circle, district]
+    point: [51.5121, -0.094]
+  - name: Marble Arch
+    lines: [central]
+    point: [51.5134, -0.159]
+  - name: Marylebone
+    lines: [bakerloo]
+    point: [51.5223, -0.1632]
+  - name: Mile End
+    lines: [central, district, hammersmith-city]
+    point: [51.5251, -0.0336]
+  - name: Mill Hill East
+    lines: [northern]
+    point: [51.6082, -0.21]
+  - name: Monument
+    lines: [circle, district]
+    point: [51.5107, -0.086]
+  - name: Moor Park
+    lines: [metropolitan]
+    point: [51.6298, -0.4325]
+  - name: Moorgate
+    lines: [circle, hammersmith-city, metropolitan, northern]
+    point: [51.5182, -0.0883]
+  - name: Morden
+    lines: [northern]
+    point: [51.4021, -0.1948]
+  - name: Mornington Crescent
+    lines: [northern]
+    point: [51.5347, -0.1388]
+  - name: Neasden
+    lines: [jubilee]
+    point: [51.554, -0.2498]
+  - name: Newbury Park
+    lines: [central]
+    point: [51.5757, 0.09]
+  - name: Nine Elms
+    lines: [northern]
+    point: [51.4799, -0.1285]
+  - name: North Acton
+    lines: [central]
+    point: [51.5235, -0.2598]
+  - name: North Ealing
+    lines: [piccadilly]
+    point: [51.5175, -0.2889]
+  - name: North Greenwich
+    lines: [jubilee]
+    point: [51.5005, 0.0043]
+  - name: North Harrow
+    lines: [metropolitan]
+    point: [51.5849, -0.3624]
+  - name: North Wembley
+    lines: [bakerloo]
+    point: [51.5626, -0.304]
+  - name: Northfields
+    lines: [piccadilly]
+    point: [51.4993, -0.3147]
+  - name: Northolt
+    lines: [central]
+    point: [51.5482, -0.3687]
+  - name: Northwick Park
+    lines: [metropolitan]
+    point: [51.5785, -0.3181]
+  - name: Northwood
+    lines: [metropolitan]
+    point: [51.6111, -0.4238]
+  - name: Northwood Hills
+    lines: [metropolitan]
+    point: [51.6006, -0.4095]
+  - name: Notting Hill Gate
+    aliases: [notting hill]
+    lines: [central, circle, district]
+    point: [51.5091, -0.1961]
+  - name: Oakwood
+    lines: [piccadilly]
+    point: [51.6477, -0.1322]
+  - name: Old Street
+    lines: [northern]
+    point: [51.5259, -0.0878]
+  - name: Osterley
+    lines: [piccadilly]
+    point: [51.4813, -0.3522]
+  - name: Oval
+    lines: [northern]
+    point: [51.4819, -0.1124]
+  - name: Oxford Circus
+    lines: [bakerloo, central, victoria]
+    point: [51.5152, -0.1419]
+  - name: Paddington
+    aliases: [paddington h and c, paddington hammersmith]
+    lines: [bakerloo, circle, district, hammersmith-city]
+    point: [51.5166, -0.1757]
+  - name: Park Royal
+    lines: [piccadilly]
+    point: [51.5271, -0.2843]
+  - name: Parsons Green
+    lines: [district]
+    point: [51.4753, -0.2012]
+  - name: Perivale
+    lines: [central]
+    point: [51.5367, -0.3234]
+  - name: Piccadilly Circus
+    lines: [bakerloo, piccadilly]
+    point: [51.51, -0.1338]
+  - name: Pimlico
+    lines: [victoria]
+    point: [51.4891, -0.1338]
+  - name: Pinner
+    lines: [metropolitan]
+    point: [51.5929, -0.3812]
+  - name: Plaistow
+    lines: [district, hammersmith-city]
+    point: [51.5313, 0.0175]
+  - name: Preston Road
+    lines: [metropolitan]
+    point: [51.572, -0.2951]
+  - name: Putney Bridge
+    lines: [district]
+    point: [51.4683, -0.2087]
+  - name: Queen's Park
+    aliases: [queens park]
+    lines: [bakerloo]
+    point: [51.5342, -0.2046]
+  - name: Queensbury
+    lines: [jubilee]
+    point: [51.5942, -0.2862]
+  - name: Queensway
+    lines: [central]
+    point: [51.5103, -0.1872]
+  - name: Ravenscourt Park
+    lines: [district]
+    point: [51.4941, -0.2359]
+  - name: Rayners Lane
+    lines: [metropolitan, piccadilly]
+    point: [51.5751, -0.3711]
+  - name: Redbridge
+    lines: [central]
+    point: [51.5762, 0.0454]
+  - name: Regent's Park
+    aliases: [regents park]
+    lines: [bakerloo]
+    point: [51.5233, -0.1464]
+  - name: Richmond
+    lines: [district]
+    point: [51.4632, -0.3013]
+  - name: Rickmansworth
+    lines: [metropolitan]
+    point: [51.6402, -0.4737]
+  - name: Roding Valley
+    lines: [central]
+    point: [51.6172, 0.0436]
+  - name: Royal Oak
+    lines: [circle, hammersmith-city]
+    point: [51.5191, -0.1887]
+  - name: Ruislip
+    lines: [metropolitan, piccadilly]
+    point: [51.5714, -0.4219]
+  - name: Ruislip Gardens
+    lines: [central]
+    point: [51.5607, -0.4107]
+  - name: Ruislip Manor
+    lines: [metropolitan, piccadilly]
+    point: [51.5732, -0.413]
+  - name: Russell Square
+    lines: [piccadilly]
+    point: [51.5231, -0.1243]
+  - name: Seven Sisters
+    lines: [victoria]
+    point: [51.5833, -0.0726]
+  - name: Shepherd's Bush
+    aliases: [shepherds bush, shepherd's bush central, shepherds bush central]
+    lines: [central]
+    point: [51.5044, -0.2188]
+  - name: Shepherd's Bush Market
+    aliases: [shepherds bush market]
+    lines: [circle, hammersmith-city]
+    point: [51.5056, -0.2264]
+  - name: Sloane Square
+    lines: [circle, district]
+    point: [51.4923, -0.1564]
+  - name: Snaresbrook
+    lines: [central]
+    point: [51.5807, 0.0214]
+  - name: South Ealing
+    lines: [piccadilly]
+    point: [51.501, -0.3074]
+  - name: South Harrow
+    lines: [piccadilly]
+    point: [51.5649, -0.3525]
+  - name: South Kensington
+    lines: [circle, district, piccadilly]
+    point: [51.4941, -0.1741]
+  - name: South Kenton
+    lines: [bakerloo]
+    point: [51.5702, -0.3084]
+  - name: South Ruislip
+    lines: [central]
+    point: [51.5569, -0.3989]
+  - name: South Wimbledon
+    lines: [northern]
+    point: [51.4153, -0.192]
+  - name: South Woodford
+    lines: [central]
+    point: [51.5919, 0.0273]
+  - name: Southfields
+    lines: [district]
+    point: [51.4451, -0.2066]
+  - name: Southgate
+    lines: [piccadilly]
+    point: [51.6323, -0.1278]
+  - name: Southwark
+    lines: [jubilee]
+    point: [51.5043, -0.1053]
+  - name: St James's Park
+    aliases: [st jamess park, saint jamess park]
+    lines: [circle, district]
+    point: [51.4995, -0.1336]
+  - name: St John's Wood
+    aliases: [saint johns wood, st johns wood]
+    lines: [jubilee]
+    point: [51.5345, -0.1739]
+  - name: St Paul's
+    aliases: [saint pauls, st pauls]
+    lines: [central]
+    point: [51.5149, -0.0976]
+  - name: Stamford Brook
+    lines: [district]
+    point: [51.4949, -0.2457]
+  - name: Stanmore
+    lines: [jubilee]
+    point: [51.6198, -0.3033]
+  - name: Stepney Green
+    lines: [district, hammersmith-city]
+    point: [51.5219, -0.0466]
+  - name: Stockwell
+    lines: [northern, victoria]
+    point: [51.4722, -0.1226]
+  - name: Stonebridge Park
+    lines: [bakerloo]
+    point: [51.544, -0.2759]
+  - name: Stratford
+    lines: [central, jubilee]
+    point: [51.5418, -0.0035]
+  - name: Sudbury Hill
+    lines: [piccadilly]
+    point: [51.5569, -0.3364]
+  - name: Sudbury Town
+    lines: [piccadilly]
+    point: [51.5508, -0.3157]
+  - name: Swiss Cottage
+    lines: [jubilee]
+    point: [51.5437, -0.1749]
+  - name: Temple
+    lines: [circle, district]
+    point: [51.511, -0.1143]
+  - name: Theydon Bois
+    lines: [central]
+    point: [51.6718, 0.1031]
+  - name: Tooting Bec
+    lines: [northern]
+    point: [51.4357, -0.1597]
+  - name: Tooting Broadway
+    lines: [northern]
+    point: [51.4276, -0.1684]
+  - name: Tottenham Court Road
+    lines: [central, northern]
+    point: [51.5164, -0.1304]
+  - name: Tottenham Hale
+    lines: [victoria]
+    point: [51.5881, -0.0602]
+  - name: Totteridge & Whetstone
+    aliases: [totteridge and whetstone, totteridge whetstone]
+    lines: [northern]
+    point: [51.6306, -0.1792]
+  - name: Tower Hill
+    lines: [circle, district]
+    point: [51.51, -0.0765]
+  - name: Tufnell Park
+    lines: [northern]
+    point: [51.5568, -0.1384]
+  - name: Turnham Green
+    lines: [district, piccadilly]
+    point: [51.4951, -0.2546]
+  - name: Turnpike Lane
+    lines: [piccadilly]
+    point: [51.5903, -0.103]
+  - name: Upminster
+    lines: [district]
+    point: [51.5591, 0.2509]
+  - name: Upminster Bridge
+    lines: [district]
+    point: [51.5586, 0.2358]
+  - name: Upney
+    lines: [district]
+    point: [51.5384, 0.1015]
+  - name: Upton Park
+    lines: [district, hammersmith-city]
+    point: [51.5353, 0.0353]
+  - name: Uxbridge
+    lines: [metropolitan, piccadilly]
+    point: [51.5466, -0.4779]
+  - name: Vauxhall
+    lines: [victoria]
+    point: [51.4857, -0.1242]
+  - name: Victoria
+    lines: [circle, district, victoria]
+    point: [51.4964, -0.1431]
+  - name: Walthamstow Central
+    aliases: [walthamstow]
+    lines: [victoria]
+    point: [51.583, -0.0199]
+  - name: Wanstead
+    lines: [central]
+    point: [51.5755, 0.0285]
+  - name: Warren Street
+    lines: [northern, victoria]
+    point: [51.525, -0.1383]
+  - name: Warwick Avenue
+    lines: [bakerloo]
+    point: [51.5233, -0.1838]
+  - name: Waterloo
+    lines: [bakerloo, jubilee, northern, waterloo-city]
+    point: [51.5033, -0.1148]
+  - name: Watford
+    lines: [metropolitan]
+    point: [51.6574, -0.4174]
+  - name: Wembley Central
+    lines: [bakerloo]
+    point: [51.5523, -0.2969]
+  - name: Wembley Park
+    lines: [jubilee, metropolitan]
+    point: [51.5632, -0.2793]
+  - name: West Acton
+    lines: [central]
+    point: [51.518, -0.281]
+  - name: West Brompton
+    lines: [district]
+    point: [51.4873, -0.1956]
+  - name: West Finchley
+    lines: [northern]
+    point: [51.6094, -0.1884]
+  - name: West Ham
+    lines: [district, hammersmith-city, jubilee]
+    point: [51.5281, 0.0051]
+  - name: West Hampstead
+    lines: [jubilee]
+    point: [51.5466, -0.1911]
+  - name: West Harrow
+    lines: [metropolitan]
+    point: [51.5797, -0.3534]
+  - name: West Kensington
+    lines: [district]
+    point: [51.4905, -0.2066]
+  - name: West Ruislip
+    lines: [central]
+    point: [51.5697, -0.4379]
+  - name: Westbourne Park
+    lines: [circle, hammersmith-city]
+    point: [51.5211, -0.2011]
+  - name: Westminster
+    lines: [circle, district, jubilee]
+    point: [51.5013, -0.1249]
+  - name: White City
+    lines: [central]
+    point: [51.512, -0.2243]
+  - name: Whitechapel
+    lines: [district, hammersmith-city]
+    point: [51.5195, -0.06]
+  - name: Willesden Green
+    lines: [jubilee]
+    point: [51.5491, -0.2215]
+  - name: Willesden Junction
+    lines: [bakerloo]
+    point: [51.5323, -0.2443]
+  - name: Wimbledon
+    lines: [district]
+    point: [51.4212, -0.2066]
+  - name: Wimbledon Park
+    lines: [district]
+    point: [51.4346, -0.1997]
+  - name: Wood Green
+    lines: [piccadilly]
+    point: [51.5975, -0.1099]
+  - name: Wood Lane
+    lines: [circle, hammersmith-city]
+    point: [51.5097, -0.2245]
+  - name: Woodford
+    lines: [central]
+    point: [51.6069, 0.034]
+  - name: Woodside Park
+    lines: [northern]
+    point: [51.618, -0.1854]
