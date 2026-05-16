@@ -17,8 +17,8 @@ games:
     count: 10
   - slug: london-boroughs
     name: London Boroughs
-    description: Name all 33 London boroughs including the City of London.
-    count: 33
+    description: Name all 32 London boroughs.
+    count: 32
   - slug: east-coast-line
     name: East Coast Main Line
     description: Every major calling point from King's Cross to Edinburgh.

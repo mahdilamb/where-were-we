@@ -1,5 +1,5 @@
 name: London Boroughs
-description: Name all 33 London boroughs including the City of London.
+description: Name all 32 London boroughs.
 mapType: light
 geographyType: polygon
 center: [51.507, -0.128]
@@ -195,14 +195,6 @@ items:
       - [51.56023, -0.14095]
       - [51.56446, -0.14065]
       - [51.5691, -0.14242]
-      - [51.51855, -0.10532]
-  - name: "City of London"
-    aliases: ["square mile", "the city"]
-    polygon:
-      - [51.51855, -0.10532]
-      - [51.51776, -0.10785]
-      - [51.51826, -0.11383]
-      - [51.51533, -0.11159]
       - [51.51855, -0.10532]
   - name: "Croydon"
     polygon:
